@@ -9,7 +9,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
   }
 
-  header {
+header {
         padding: 20px 35px;
         background-color: #39a6b2;
 }
@@ -25,6 +25,14 @@ header h1 {
 header a {
     text-decoration: none;
     color: #fce138;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 header nav {
