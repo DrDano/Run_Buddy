@@ -260,6 +260,16 @@ section {
     color: white;
 }
 
+.contact-info h3 {
+    padding: 20px 0px;
+    color: #fce138;
+    font-size: 25px;
+}
+
+.contact-info {
+    line-height: 30px;
+}
+
 .contact-info a {
     color: #fce138;
 }
