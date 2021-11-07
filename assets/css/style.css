@@ -157,7 +157,6 @@ section {
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -200,7 +199,6 @@ section {
 }
 
 .trainers {
-    text-align: center;
 }
 
 .trainer {
@@ -223,14 +221,6 @@ section {
     width: 65%;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -249,7 +239,6 @@ section {
 
 .contact {
     background: #024e76;
-    text-align: center;
     overflow: auto;
 }
 
@@ -285,4 +274,16 @@ section {
 
 .contact-info a {
     color: #fce138;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
