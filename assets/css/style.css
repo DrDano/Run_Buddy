@@ -204,7 +204,7 @@ section {
 .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
-    color: #024e76;
+    color: #024e75;
 }
 
 .step-info {
@@ -212,6 +212,15 @@ section {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-text {
+    flex: 12;
 }
 
 .trainers {
