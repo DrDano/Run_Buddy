@@ -233,26 +233,22 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-.trainer {
-    width: 900px;
-    margin: 0 auto 30px auto;
-    background: #024e76;
-    color: #fce138;
-    overflow: auto;
     box-shadow: -10px 5px 7px rgba(0, 0, 0, 0.37);
 }
 
+.trainer {
+    margin: 20;
+    background: #024e76;
+    color: #fce138;
+    flex: 1;
+}
+
 .trainer img {
-    width: 35%;
-    float: left;
+    width: 100%;
 }
 
 .trainer-bio {
-    padding: 35px;
-    float: left;
-    width: 65%;
+    padding: 25px;
     line-height: 1.3;
 }
 
