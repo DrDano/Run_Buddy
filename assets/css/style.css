@@ -38,18 +38,6 @@ header a {
     color: #fce138;
 }
 
-a:hover {
-    color: #ffffff;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-button {
-    border-radius: 10px;
-}
-
 header nav {
     margin: 7px 0;
 }
@@ -67,6 +55,13 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
 }
 
 footer {
@@ -154,6 +149,12 @@ section {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
+    background-color: rgba(255,255,255,0.75);
+}
+
+.form-input:focus {
+    background-color: rgba(255,255,255,1);
+    outline: none;
 }
 
 .hero-form label {
@@ -167,6 +168,12 @@ section {
     color: #fce138;
     font-size: large;
     border: none;
+    border-radius: 10px;
+}
+
+.hero-form button:hover {
+    background-color: #39a6b2;
+    cursor: pointer;
 }
 
 .intro p {
@@ -352,6 +359,11 @@ section {
     padding: 15px 0;
     font-size: 16px;
     border-radius: 10px;
+}
+
+.contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
 }
 
 .text-left {
